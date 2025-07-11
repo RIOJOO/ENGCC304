@@ -1,0 +1,257 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build lab1.cpp",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "lab1.cpp",
+        "-o",
+        "lab1.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Build lab2.cpp",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "lab2.cpp",
+        "-o",
+        "lab2.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Build lab3.cpp",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "lab3.cpp",
+        "-o",
+        "lab3.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Build lab4.cpp",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "lab4.cpp",
+        "-o",
+        "lab4.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Build lab5.cpp",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "lab5.cpp",
+        "-o",
+        "lab5.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Build lab6.cpp",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "lab6.cpp",
+        "-o",
+        "lab6.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Build lab7.cpp",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "lab7.cpp",
+        "-o",
+        "lab7.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Build lab8.cpp",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "lab8.cpp",
+        "-o",
+        "lab8.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Build lab9.cpp",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "lab9.cpp",
+        "-o",
+        "lab9.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Build lab10.cpp",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "lab10.cpp",
+        "-o",
+        "lab10.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Build lab11.cpp",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "lab11.cpp",
+        "-o",
+        "lab11.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Build lab12.cpp",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "lab12.cpp",
+        "-o",
+        "lab12.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Build lab13.cpp",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "lab13.cpp",
+        "-o",
+        "lab13.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Build lab14.cpp",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "lab14.cpp",
+        "-o",
+        "lab14.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    }
+  ]
+}
