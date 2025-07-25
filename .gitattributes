@@ -1,0 +1,21 @@
+# ตั้งค่าทั่วไปให้ Git จัดการไฟล์ข้อความโดยอัตโนมัติ
+* text=auto
+
+# บังคับให้ไฟล์ C/C++ ใช้ LF (เหมาะกับ cross-platform)
+*.c text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+
+# บังคับให้ไฟล์ JSON ใช้ LF (แนะนำสำหรับ VSCode และ config)
+*.json text eol=lf
+
+# บังคับให้ไฟล์ Shell script ใช้ LF
+*.sh text eol=lf
+
+# บังคับให้ไฟล์ Batch script ใช้ CRLF (เฉพาะ Windows)
+*.bat text eol=crlf
+
+# ป้องกัน Git จากการแปลง binary files
+*.png binary
+*.jpg binary
+*.exe binary
