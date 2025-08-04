@@ -4,19 +4,19 @@ int main(){
     int empID;
     float hoursWorked, ratePerHour, totalIncome;
 
-    printf("เลขประจำตัวพนักงาน");
+    printf("employee:");
     scanf("%d", &empID);
 
-    printf("ใส่จำนวนชั่วโมง");
+    printf("hoursWorked:");
     scanf("%f", &hoursWorked);
 
-    printf("ใส่รายได้ต่อชั่วโมง: ");
+    printf("ratePerHour: ");
     scanf("%f", &ratePerHour);
 
     totalIncome = hoursWorked * ratePerHour;
 
-    printf("\nเลขประจำตัวพนักงาน: %d\n", empID);
-    printf("รายได้ทั้งหมด: %.2f บาท\n", totalIncome);
+    printf("\n employee: %d\n", empID);
+    printf("totalIncome: %.2f bath\n", totalIncome);
 
     return 0;
 }
